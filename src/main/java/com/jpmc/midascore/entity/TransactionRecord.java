@@ -58,4 +58,13 @@ public class TransactionRecord implements Serializable {
     public void setAmount(float amount) {
         this.amount = amount;
     }
+    private float incentive;
+
+    public float getIncentive() { 
+    	return incentive; 
+    	}
+    public void setIncentive(float incentive) {
+    	this.incentive = incentive;
+    	}
+
 }
